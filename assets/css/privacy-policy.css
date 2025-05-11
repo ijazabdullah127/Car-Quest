@@ -1,0 +1,95 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+.privPolicyHeader {
+  color: white;
+  text-align: center;
+  background-color: black;
+  font-size: large;
+  padding: 128px 16px;
+}
+
+#privacyPolicyHeading {
+  color: white;
+}
+.paraDiv {
+  border-block: 5px solid;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w3-row-padding {
+  padding: 0 8px;
+}
+.padding-64 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+.padding-32 {
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+}
+
+.text-grey {
+  color: #757575 !important;
+}
+.w3-light-grey {
+  background-color: #f1f1f1;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0px;
+  padding: 10px;
+}
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.infoPara {
+  padding-left: 1.5rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item1 {
+  grid-column: span 2;
+}
+.item2 {
+  grid-column: span 1;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0px;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+.item3 {
+  grid-column: span 1;
+}
+.item4 {
+  grid-column: span 2;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  text-align: center;
+  font-size: 1.3rem;
+}

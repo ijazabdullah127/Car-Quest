@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.65;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.container {
+  position: relative;
+  max-width: 850px;
+  width: 100%;
+  padding: 40px 30px;
+  border: none;
+}
+.container .cover {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 50%;
+  z-index: 98;
+  transition: all 1s ease;
+  transform-origin: left;
+  transform-style: preserve-3d;
+}
+
+.container .forms {
+  height: 80%;
+  width: 80%;
+  background: transparent;
+}
+
+.form-content .title {
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  font-weight: bolder;
+}
+
+.form-content .input-box {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+
+.form-content .input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+#submitButton {
+  margin-top: 40px;
+  background-color: rgb(23, 19, 19);
+  box-shadow: none;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 12px;
+}
+#submitButton:hover {
+  background-color: #ffd900;
+  border-color: #ffd900;
+  color: black;
+
+  transition-property: background-color, border-color;
+  transition-duration: 0.7s;
+  transition-timing-function: ease;
+}
+#submitButton:not(:hover) {
+  transition-property: background-color, border-color;
+  transition-duration: 1.5s;
+  transition-timing-function: ease;
+}
+#inp1 {
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 12px;
+  color: white;
+}
