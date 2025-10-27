@@ -172,15 +172,10 @@ If you own any of the referenced assets and would like attribution updated or as
 
 ---
 
-<<<<<<< Updated upstream
-If you have feedback or want to contribute improvements, feel free to open an issue or a pull request.
-=======
 If you have feedback or want to contribute improvements, feel free to open an issue or a pull request. Don't forget to star this repo.
->>>>>>> Stashed changes
-<<<<<<< Updated upstream
-=======
 
 
 Co-authored-by: Abdullah Ijaz <108861009+ijazabdullah127@users.noreply.github.com>
 Co-authored-by: Abdullah <44023+abdullahijaz786@users.noreply.github.com>
->>>>>>> Stashed changes
+=======
+
